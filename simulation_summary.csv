@@ -1,0 +1,5 @@
+scenario,total_tickets,avg_lead_time_hours,tickets_per_day,total_rework_cycles,simulation_days
+Traditional PR,62,0.33,3.44,38,18
+AI-Enhanced PR,67,0.33,3.53,37,19
+Pair Programming,40,8.2,4.0,4,10
+AI-Enhanced Pairs,40,5.99,4.0,8,10
