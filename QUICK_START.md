@@ -1,14 +1,16 @@
 # Quick Start Guide
 
-## Your Jupyter + .NET Environment is Ready! 🎉
+## Software Development Workflow Simulation Ready! 🎉
 
 ### What's Set Up
+
 ✅ **Python 3.13** virtual environment  
 ✅ **Jupyter Lab** with full data science stack  
-✅ **.NET Interactive** with C#, F#, and PowerShell kernels  
-✅ **Sample notebooks** demonstrating integration  
+✅ **SimPy** for discrete event simulation  
+✅ **Complete workflow simulation** comparing development approaches  
 
 ### Start Jupyter Lab
+
 ```powershell
 # Method 1: Use the PowerShell script
 .\start_jupyter.ps1
@@ -22,30 +24,42 @@ jupyter lab
 ```
 
 ### Current Server
+
 🌐 **Jupyter Lab is running at:**
 http://localhost:8889/lab?token=10851cc20ad8c5a9d003d4f98516f673234c6e0876457050
 
-### Available Notebooks
-1. **`python_example.ipynb`** - Python data analysis
-2. **`csharp_queue_simulation.ipynb`** - C# queue simulation  
-3. **`mixed_python_dotnet.ipynb`** - Python ↔ .NET integration
+### Main Notebook
 
-### Available Kernels
-- **Python 3** - Full data science stack
-- **.NET (C#)** - Object-oriented programming
-- **.NET (F#)** - Functional programming  
-- **.NET (PowerShell)** - System automation
+**`workflow_queue_simulation.ipynb`** - Complete software development workflow simulation
 
-### Key Integration Features
-🔄 **Data Exchange**: JSON files between Python and .NET  
-📊 **Visualization**: Python (matplotlib, seaborn) + .NET processing  
-⚡ **Performance**: .NET for computation + Python for analysis  
-🧮 **Queue Simulation**: Complete workflow from data generation to visualization  
+### Simulation Scenarios
+
+- **Traditional PR** - Standard pull request workflow with 7 developers
+- **AI-Enhanced PR** - PR workflow with AI-assisted development (1.3x speed)  
+- **Pair Programming** - Real-time collaborative development with 4 pairs
+- **AI-Enhanced Pairs** - Pair programming with AI assistance
+
+### Key Simulation Features
+
+🔄 **Realistic Modeling**: Industry-based defect rates, rework cycles, context switching  
+📊 **Comprehensive Analysis**: Lead times, throughput, queue performance, statistical trends  
+⚡ **Performance Insights**: AI enhancement effects, pair programming benefits  
+🧮 **Queue Theory**: SimPy-based discrete event simulation with resource constraints  
+
+### What You'll Learn
+
+- **Lead Time Impact** - How different workflows affect delivery speed
+- **Bottleneck Analysis** - Where queues form and impact performance
+- **AI Benefits** - Quantified improvements from AI-assisted development
+- **Pair Programming ROI** - Lower defect rates vs. reduced individual productivity
+- **Context Switching Costs** - Hidden overhead in traditional workflows
 
 ### Next Steps
-1. Open Jupyter Lab in your browser
-2. Try the sample notebooks
-3. Create your own queue simulation models
-4. Experiment with different kernel combinations
 
-**Happy coding with Python and .NET! 🚀**
+1. Open Jupyter Lab in your browser
+2. Run the `workflow_queue_simulation.ipynb` notebook
+3. Analyze the generated charts and statistics
+4. Experiment with different parameters
+5. Use results for team discussions and process improvements
+
+**Happy simulating! 🚀📊**
