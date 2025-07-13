@@ -26,7 +26,7 @@ jupyter lab
 ### Current Server
 
 🌐 **Jupyter Lab is running at:**
-http://localhost:8889/lab?token=10851cc20ad8c5a9d003d4f98516f673234c6e0876457050
+<http://localhost:8889/lab?token=10851cc20ad8c5a9d003d4f98516f673234c6e0876457050>
 
 ### Main Notebook
 
