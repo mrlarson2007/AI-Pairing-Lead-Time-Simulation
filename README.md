@@ -58,8 +58,9 @@ The main notebook contains a complete software development workflow simulation w
 
 ### Realistic Modeling
 
-- **Developer Defect Rates**: 30% for individual work, 18% for pair programming
-- **AI Speed Enhancement**: 1.3x coding speed improvement
+- **Developer Defect Rates**: 75% for individual work (traditional and AI-enhanced), 45% for pair programming
+- **AI Speed Enhancement**: 1.3x coding speed improvement (no quality improvement)
+- **Realistic AI Assessment**: AI provides speed benefits but introduces different defect types that negate quality gains
 - **Rework Cycles**: Up to 3 cycles with diminishing defect rates
 - **Context Switching**: 30-minute penalties for task switching
 - **Queue Dynamics**: Realistic PR review bottlenecks
@@ -72,6 +73,7 @@ The main notebook contains a complete software development workflow simulation w
 
 2. **AI-Enhanced PR** (7 developers)
    - Same workflow with 1.3x coding speed
+   - Same defect rate as traditional (AI doesn't improve quality)
    - Reduced development time, same review process
 
 3. **Pair Programming** (4 pairs = 8 developers)
@@ -79,8 +81,9 @@ The main notebook contains a complete software development workflow simulation w
    - No PR queue, immediate feedback cycles
 
 4. **AI-Enhanced Pairs** (4 pairs = 8 developers)
-   - Fastest coding with lowest defect rates
-   - Combined benefits of AI and pairing
+   - Fastest coding with pair programming quality benefits
+   - AI provides speed, pairing provides quality improvement
+   - Combined benefits of AI speed and pair programming defect reduction
 
 ## Simulation Results
 
@@ -136,8 +139,9 @@ The simulation reveals important findings about software development workflows:
 
 - **Queue Bottlenecks** - PR review queues significantly impact lead times
 - **Context Switching** - Task switching penalties add substantial overhead
-- **Defect Rates** - Pair programming dramatically reduces defects (18% vs 30%)
-- **AI Enhancement** - Consistent 30% speed improvement across all scenarios
+- **Defect Rates** - Pair programming dramatically reduces defects (45% vs 75%)
+- **AI Enhancement** - Consistent 30% speed improvement with no quality change (realistic assessment)
+- **Realistic AI Impact** - AI introduces different defect types that offset speed benefits in terms of quality
 
 ## Troubleshooting
 

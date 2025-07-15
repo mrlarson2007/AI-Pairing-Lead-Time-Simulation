@@ -70,10 +70,10 @@ Compare the impact of AI adoption and development methodologies on software team
 ### AI Enhancement Parameters
 
 - **Coding speedup:** 30% faster for both initial coding and rework/bug fixing
-- **Quality impact:** No change in defect rates (developers become too trusting of AI)
+- **Quality impact:** No change in defect rates (AI introduces different types of defects that negate quality improvements)
 - **Application:** Applies to all development scenarios (individual work, pair work)
 - **Scope:** Speed improvement only - quality effects come from pair programming
-- **Combination:** AI speed benefits stack with pair programming quality benefits
+- **Realistic assessment:** While AI helps with coding speed, it often introduces logic errors, edge case misses, and over-reliance issues
 
 *[Additional parameters to be captured through Q&A]*
 
@@ -95,7 +95,8 @@ Compare the impact of AI adoption and development methodologies on software team
 
 #### 2. Configuration & Parameters ✅ **COMPLETED**
 
-- **✅ Configurable Defect Rates:** Base rate (75%) with AI (15% reduction) and pair programming (40% reduction) improvement factors
+- **✅ Configurable Defect Rates:** Base rate (75%) with pair programming (40% reduction) improvement factor
+- **✅ AI Speed Enhancement:** 30% coding speedup with no quality improvement (realistic assessment)
 - **✅ Realistic Rework Distribution:** 70% small fixes (5-15%), 20% medium (20-40%), 10% large (50-80%)
 - **✅ Context Switching Penalties:** 30-minute penalty for non-pair developers
 - **✅ Concurrent Work Support:** Developers can work on new tickets while waiting for PR feedback
@@ -112,23 +113,27 @@ Compare the impact of AI adoption and development methodologies on software team
 ### ✅ **COMPLETED PHASES**
 
 #### Phase 1: Foundation ✅ **COMPLETE**
+
 - **✅ SimPy simulation framework** implemented with proper discrete event modeling
 - **✅ Core classes:** Ticket, Developer, EnhancedQueueSimulation with realistic workflow logic
 - **✅ Configuration system:** Centralized defect rates and improvement factors
 
 #### Phase 2: Baseline Implementation ✅ **COMPLETE**
+
 - **✅ Traditional PR workflow:** 7 developers + 1 reviewer rotation system
 - **✅ Priority-based developer workflow:** Rework → new work → minimal waiting
 - **✅ Realistic rework handling:** Per-developer rework queues with proper state tracking
 - **✅ Concurrent ticket support:** Developers work on new tickets while PRs are in review
 
 #### Phase 3: Scenario Expansion ✅ **COMPLETE**
-- **✅ AI-enhanced PR workflow:** 30% coding speedup with configurable defect reduction
+
+- **✅ AI-enhanced PR workflow:** 30% coding speedup with same defect rate as traditional
 - **✅ Pair programming workflow:** 4 pairs with trunk-based development and immediate feedback
 - **✅ AI-enhanced pairs:** Combined benefits of AI speedup and pair programming quality
-- **✅ Realistic defect rates:** 75% base rate reflecting real-world PR feedback frequency
+- **✅ Realistic defect rates:** 75% base rate for traditional/AI, 45% for pair programming
 
 #### Phase 4: Analysis & Visualization ✅ **COMPLETE**
+
 - **✅ Comprehensive dashboard:** Lead time, rework, productivity, and trend analysis
 - **✅ Statistical distribution charts:** Min/max/median analysis with proper y-axis buffering
 - **✅ Performance ranking:** Improvement percentages vs baseline with key insights
@@ -136,13 +141,15 @@ Compare the impact of AI adoption and development methodologies on software team
 
 ### 🔄 **CURRENT PHASE: Optimization & Validation**
 
-#### Completed Optimizations:
+#### Completed Optimizations
+
 - **✅ Configurable parameters:** Easy adjustment of defect rates and improvement factors
 - **✅ Realistic workflow logic:** Proper priority handling and concurrent work support
 - **✅ Enhanced visualizations:** Multiple chart types with clear labeling and proper spacing
 - **✅ Evidence-based defaults:** 75% defect rate based on real PR feedback patterns
 
-#### Next Steps:
+#### Next Steps
+
 - **⏳ Parameter sensitivity analysis:** Test different defect rates and improvement factors
 - **⏳ Validation runs:** Execute full simulation with current realistic parameters
 - **⏳ Scenario analysis:** Document insights and recommendations
@@ -173,7 +180,8 @@ Compare the impact of AI adoption and development methodologies on software team
 - **✅ Infinite backlog:** Work always available, developers pick up new tasks immediately
 - **✅ Priority-based workflow:** Rework takes priority over new work, enabling concurrent tickets
 - **✅ Realistic defect rates:** 75% base rate reflecting real-world PR feedback frequency
-- **✅ Configurable improvements:** AI (15% defect reduction), Pair programming (40% defect reduction)
+- **✅ Realistic defect rates:** 75% base rate for traditional/AI developers, 45% for pair programming
+- **✅ AI realistic assessment:** Speed benefits only, no quality improvement due to different defect types
 - **✅ Realistic rework distribution:** 70% small (5-15%), 20% medium (20-40%), 10% large (50-80%)
 - **✅ Context switching penalty:** 30 minutes for non-pair developers
 - **✅ AI coding speedup:** 30% improvement for both initial development and rework
@@ -184,7 +192,7 @@ Compare the impact of AI adoption and development methodologies on software team
 - **✅ PR review timing:** 20 minutes per review with single reviewer capacity constraint
 - **✅ Rework frequency:** 75% base defect rate with realistic distribution patterns
 - **✅ Context switching:** 30-minute penalty for individual developers (pairs exempt)
-- **✅ AI effectiveness:** 30% coding speedup + 15% defect reduction
+- **✅ AI effectiveness:** 30% coding speedup with no defect rate improvement (realistic assessment)
 - **✅ Pair programming impact:** 40% defect reduction + no context switching penalty
 - **✅ Queue management:** SimPy Resource-based with realistic capacity constraints
 
