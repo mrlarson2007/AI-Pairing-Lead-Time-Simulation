@@ -190,7 +190,6 @@ pip install simpy==4.0.1 pandas==1.5.0
 
 - [SimPy Documentation](https://simpy.readthedocs.io/) - Discrete event simulation framework
 - [Queue Theory](https://en.wikipedia.org/wiki/Queueing_theory) - Mathematical foundations
-- [Pair Programming Research](https://www.computer.org/csdl/magazine/so/2000/03/s3032/13rRUygT7DO) - Academic studies on effectiveness
 - [DevOps Research](https://www.devops-research.com/research.html) - Industry benchmarks and metrics
 
 Happy simulating! 🚀📊
